@@ -1,8 +1,14 @@
 aid: arm
 name: Arm
-description: 'Arm is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Arm Holdings plc (NASDAQ: ARM) is the semiconductor and software design
+  company behind the energy-efficient Arm architecture that powers the majority of
+  the world''s smartphones and billions of chips across mobile, automotive, IoT, edge
+  AI, servers, and cloud. Arm licenses processor IP (Cortex, Neoverse, Ethos, Mali)
+  and Compute Subsystems rather than manufacturing chips itself. For developers, Arm
+  operates a developer hub, technical documentation, learning paths, community forums,
+  and a large open-source GitHub organization (ARM-software) publishing firmware,
+  compute libraries, and ML tooling. Arm does not currently expose a public REST API
+  product; this profile catalogs its developer surface and web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/arm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +16,69 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arm.png
 tags:
 - Company
+- Semiconductors
+- Chip Design
+- Processor IP
+- Arm Architecture
+- Embedded
+- Edge AI
 - Frontier Tech
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/arm-vulnerability-disclosure.yml
+- type: Security
+  url: https://developer.arm.com/Arm%20Security%20Center
+- type: WellKnown
+  url: well-known/arm-well-known.yml
+- type: SecurityTxt
+  url: well-known/arm-security.txt
+- type: Website
+  url: https://www.arm.com
+- type: DeveloperPortal
+  url: https://developer.arm.com
+- type: Documentation
+  url: https://developer.arm.com/documentation
+- type: GettingStarted
+  url: https://learn.arm.com
+- type: GitHubOrganization
+  url: https://github.com/ARM-software
+- type: Support
+  url: https://community.arm.com
+- type: Blog
+  url: https://www.arm.com/blogs
+- type: TermsOfService
+  url: https://www.arm.com/company/policies/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.arm.com/company/policies/privacy
+- type: DomainSecurity
+  url: security/arm-domain-security.yml
+- type: LLMsTxt
+  url: llms/arm-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

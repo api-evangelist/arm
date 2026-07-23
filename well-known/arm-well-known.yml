@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/ on Arm hosts
+host: https://www.arm.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: arm-security.txt
+- path: /.well-known/openid-configuration
+  status: 000
+- path: /.well-known/oauth-authorization-server
+  status: 000
+- path: /.well-known/api-catalog
+  status: 000
+- path: /.well-known/ai-plugin.json
+  status: 000
+notes: developer.arm.com returns 403 to non-browser clients (bot protection);
+  only the security.txt document was retrievable. Its Contact points to the Arm
+  Security Center (Arm PSIRT).

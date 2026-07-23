@@ -1,0 +1,26 @@
+# Arm
+
+> Arm Holdings plc (NASDAQ: ARM) is the semiconductor and software design company behind the energy-efficient Arm architecture that powers most of the world's smartphones and billions of chips across mobile, automotive, IoT, edge AI, servers, and cloud. Arm licenses processor IP (Cortex, Neoverse, Ethos, Mali) and Compute Subsystems rather than manufacturing chips. Arm does not currently publish a public REST API product; this index catalogs its developer surface and web properties.
+
+## Developer
+
+- [Arm Developer Hub](https://developer.arm.com): Central developer platform — tools, models, learning, and documentation across AI, mobile, automotive, servers, and edge.
+- [Documentation](https://developer.arm.com/documentation): Technical reference manuals, architecture and software documentation.
+- [Arm Learning Paths](https://learn.arm.com): Hands-on getting-started tutorials and guided learning paths.
+- [Arm Community](https://community.arm.com): Developer forums, support, and knowledge base.
+
+## Code
+
+- [ARM-software (GitHub)](https://github.com/ARM-software): Official open-source organization (~195 repos) — Trusted Firmware-A, Compute Library, CMSIS-DSP, astc-encoder, optimized-routines, and ML tooling.
+
+## Company
+
+- [Arm](https://www.arm.com): Corporate site and product overview.
+- [Arm Blogs](https://www.arm.com/blogs): Engineering, product, and industry blog posts.
+- [Arm Newsroom](https://newsroom.arm.com): Press releases and news.
+- [Terms & Conditions](https://www.arm.com/company/policies/terms-and-conditions)
+- [Privacy Policy](https://www.arm.com/company/policies/privacy)
+
+## Security
+
+- [Arm Security Center (PSIRT)](https://developer.arm.com/Arm%20Security%20Center): Product security and vulnerability disclosure contact (published in /.well-known/security.txt).

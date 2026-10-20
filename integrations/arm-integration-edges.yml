@@ -5,6 +5,17 @@ checked:
 - https://github.com/cncf/k8s-conformance
 - https://github.com/cncf/landscape
 - https://marketplace.visualstudio.com/vscode
+- https://landscape.aousd.org/data/full.json
+- https://www.khronos.org/conformance/adopters/conformant-companies
+- https://www.khronos.org/conformance/adopters/conformant-products
+- https://www.khronos.org/conformance/adopters/file-format-adopters
+- https://www.khronos.org/members/list
+- https://api.github.com
+- https://claude-plugins.dev/sitemap.xml
+- https://github.com/VoltAgent/awesome-agent-skills
+- https://officialskills.sh/sitemap.xml
+- https://skillsmp.com/sitemap.xml
+- https://www.skills.sh/sitemap.xml
 marketplace_apps: []
 edges:
 - partner_name: Visual Studio Code Marketplace
@@ -61,5 +72,106 @@ edges:
     detected: '2026-10-19'
   detected_by: sweep-cloud-native.py
   first_seen: '2026-10-15'
+- partner_name: Khronos Group conformant products
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  evidence: https://www.khronos.org/conformance/adopters/conformant-products/vulkan#submission_1002
+  category: graphics API conformance
+  channel: standard-directory
+  relationship: standard-participant
+  contract_reference:
+    register: Khronos Group conformant products + API adopters (khronos.org/conformance/adopters)
+    standard: Khronos conformance
+    spec_file: null
+    role: khronos-conformant-adopter
+    registered_name: Arm
+    register_id: https://www.khronos.org/conformance/adopters/conformant-products/vulkan#submission_1002
+    matched_domain: arm.com
+    matched_by: domain
+    certified_products:
+    - product: OpenCL
+      lapsed: false
+      newest_submission: '2026-08-27'
+      versions:
+      - OpenCL_1_2
+      - OpenCL_2_0
+      - OpenCL_2_1
+      - OpenCL_3_0
+      submissions_listed: 15
+    - product: OpenGL ES
+      lapsed: false
+      newest_submission: '2025-12-13'
+      versions:
+      - OpenGL_ES_2_0
+      - OpenGL_ES_3_0
+      - OpenGL_ES_3_1
+      - OpenGL_ES_3_2
+      submissions_listed: 100
+    - product: OpenVG
+      lapsed: false
+      newest_submission: '2011-07-20'
+      versions:
+      - OpenVG_1_0
+      - OpenVG_1_1
+      submissions_listed: 6
+    - product: Vulkan
+      lapsed: false
+      newest_submission: '2026-10-14'
+      versions:
+      - Vulkan_1_1
+      - Vulkan_1_2
+      - Vulkan_1_3
+      - Vulkan_1_4
+      submissions_listed: 72
+    products_sample:
+    - ARM Mali OpenGL ES Emulator v1.1.0.2738 for Windows x64
+    - ARM Mali OpenGL ES Emulator v1.1.0.2738 for Windows x86
+    - ARM OpenCL Driver + Mali-T604 GPU
+    - ARM OpenCL running on Mali-G51, Android 7.1 (N MR1)
+    - ARM OpenCL running on Mali-G51, Linux 3.18.20 (Linaro)
+    - ARM OpenCL running on Mali-G71, Android 7.1 (N MR1)
+    - ARM OpenCL running on Mali-G71, Linux 3.18.20 (Linaro)
+    - ARM OpenCL running on Mali-G77, Linux 4.19.7 (Linaro)
+    - ARM OpenCL running on Mali-T760, Linux 4.0.0 (Linaro)
+    - Arm Mali-G2-Pro-NX running under Android 17
+    signal_note: certified_products = one entry per Khronos API the company is a conformant adopter of (the API
+      Adopters page), never per submission or product; dates, versions and submission counts are context. Khronos
+      marks no conformance as superseded or lapsed, so lapsed is false
+    detected_by: sweep-xr-graphics.py
+    detected: '2026-10-20'
+  detected_by: sweep-xr-graphics.py
+  first_seen: '2026-10-20'
+- partner_name: SkillsMP (skillsmp.com)
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  category: Agent Skills register
+  evidence: https://skillsmp.com/creators/arm-software
+  channel: standard-directory
+  relationship: compatible
+  shape: agent-skills
+  evidence_kind: register-listing
+  degree: listed
+  report_only: true
+  agent_skills_register:
+    repos:
+    - arm-software
+    repo_verified: false
+    signal_note: the provider's own-org repos the register lists; skill / install counts never read
+  contract_reference:
+    register: SkillsMP (skillsmp.com) (public sitemap / list)
+    spec_file: null
+    standard: Agent Skills (agentskills.io)
+    role: agent-skills-listing
+    matched_org: arm-software
+    matched_by: org-profile-domain:arm.com
+    sample_skills: []
+    detected_by: sweep-agent-skills.py
+    detected: '2026-10-20'
+  detected_by: sweep-agent-skills.py
+  first_seen: '2026-10-20'
 source:
 - https://marketplace.visualstudio.com/vscode

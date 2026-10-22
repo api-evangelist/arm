@@ -176,3 +176,40 @@
       newest_listing: '2026-04-22'
   status: not-a-workflow
   arazzo: null
+- slug: arm-common-criteria-portal-ccra-certified-products
+  label: Common Criteria Portal (CCRA certified products)
+  partner_name: Common Criteria Portal (CCRA certified products)
+  category: Common Criteria (ISO/IEC 15408) product certification
+  type: register
+  channel: standard-directory
+  evidence: https://www.commoncriteriaportal.org/products/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Common Criteria Portal certified products + archived certificates (commoncriteriaportal.org/products/certified_products.csv,
+      certified_products-archived.csv)
+    standard: ISO/IEC 15408 Common Criteria for Information Technology Security Evaluation (CCRA)
+    spec_file: null
+    role: cc-certified-manufacturer
+    registered_name: Arm Limited
+    matched_domain: arm.com
+    matched_by: domain
+    certified_products:
+    - product: ICs, Smart Cards and Smart Card-Related Devices and Systems
+      product_type: ICs, Smart Cards and Smart Card-Related Devices and Systems
+      standard: ISO/IEC 15408 Common Criteria for Information Technology Security Evaluation (CCRA)
+      lapsed: false
+      partner_tier: EAL4+,ALC_DVS.2,ALC_FLR.2,ATE_DPT.2,AVA_VAN.5
+      protection_profiles:
+      - BSI-CC-PP-0117-2022
+      schemes:
+      - NL
+    signal_note: 'certified_products = one entry per Common Criteria product CATEGORY held (highest EAL for that
+      category in partner_tier; a category held only among archived certificates is lapsed: true); certificate and
+      product counts are context, never counted'
+    detected_by: sweep-common-criteria-certified-products.py
+    detected: '2026-10-21'
+    identity: wikidata Q296782 'Arm Holdings' P856 https://www.arm.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  status: not-a-workflow
+  arazzo: null

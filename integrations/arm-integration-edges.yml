@@ -34,6 +34,7 @@ checked:
 - https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search?SearchMode=Advanced&Standard=140-2&CertificateStatus=Historical&ValidationYear=0
 - https://www.bestpractices.dev/en/projects.json
 - https://www.bestpractices.dev/en/projects.json?page=N
+- hugging-face/integrations/hugging-face-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Visual Studio Code Marketplace
@@ -376,5 +377,33 @@ edges:
       repo
   detected_by: sweep-openssf-best-practices-badges.py
   first_seen: '2026-10-22'
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/Arm
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - Arm/neural-graphics-dataset
+  - Arm/qwen3-tts-0-6b-custom-voice-mix-precision
+  - Arm/qwen3-tts-0-6b-base-mix-precision
+  - Arm/qwen3-5-2b-q4-k-m-ggml-llama-cpp-vivo-x300
+  - Arm/nitec-resnet-18-int8-xnnpack-executorch
+  - Arm/mobilegaze-mobilenet-v2-int8-xnnpack-executorch
+  - Arm/tinyllama-1-1b-chat-onnx-genai-int4-kquantlast-emb-int8-vivo-x300
+  - Arm/qwen3-vl-2b-instruct-q4-k-m-ggml-llama-cpp-vivo-x300
+  - Arm/tinyllama-1-1b-chat-onnx-genai-int4-kquantlast-emb-int8-graviton-g4
+  - Arm
+  listing_count: 3
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub datasets
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
 source:
 - https://marketplace.visualstudio.com/vscode

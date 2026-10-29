@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arm is a company surfaced as a portfolio company of softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment pipeline.
+Arm Holdings plc (NASDAQ: ARM) is the semiconductor and software design company behind the energy-efficient Arm architecture that powers the majority of the world's smartphones and billions of chips across mobile, automotive, IoT, edge AI, servers, and cloud. Arm licenses processor IP (Cortex, Neoverse, Ethos, Mali) and Compute Subsystems rather than manufacturing chips itself. For developers, Arm operates a developer hub, technical documentation, learning paths, community forums, and a large open-source GitHub organization (ARM-software) publishing firmware, compute libraries, and ML tooling. Arm does not currently expose a public REST API product; this profile catalogs its developer surface and web properties.
 
-Backed by: softbank-vision-fund
+**Areas:** Company · Semiconductors · Chip Design · Processor IP · Arm Architecture · Embedded · Edge AI · Frontier Tech
+
+## Arm on APIs.io
+
+Everything profiled for Arm is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arm/](https://apis.io/providers/arm/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arm Domain Security](https://apis.io/security/arm/arm-domain-security/)
+- [Arm Vulnerability Disclosure](https://apis.io/security/arm/arm-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.arm.com)
+- [Documentation](https://developer.arm.com/documentation)
+- [Getting started](https://learn.arm.com)
+- [Support](https://community.arm.com)
+- [Blog](https://www.arm.com/blogs)
+- [Security](https://developer.arm.com/Arm%20Security%20Center)
+- [Terms of service](https://www.arm.com/company/policies/terms-and-conditions)
+- [Privacy policy](https://www.arm.com/company/policies/privacy)
+- [GitHub](https://github.com/ARM-software)
+
+## API Evangelist rating
+
+**Kin Score 19.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arm/](https://apis.io/providers/arm/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arm: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arm/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
